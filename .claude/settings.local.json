@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(ls /c/Python*/python.exe /c/Users/*/AppData/Local/Programs/Python/*/python.exe)",
+      "Bash(where python:*)",
+      "Bash(echo $PATH)",
+      "Bash(find D:/CapStone -type f -not -path */node_modules/* -not -path */.git/* -not -name *.docx)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const express = require\\(''express''\\); console.log\\(''Express version:'', require\\(''express/package.json''\\).version\\)\")",
+      "Bash(node -e \"console.log\\(''Multer:'', require\\(''multer/package.json''\\).version\\); console.log\\(''Mongoose:'', require\\(''mongoose/package.json''\\).version\\)\")",
+      "Bash(node -e \"const multer = require\\(''multer''\\); console.log\\(Object.keys\\(multer\\)\\); console.log\\(''diskStorage:'', typeof multer.diskStorage\\); console.log\\(''memoryStorage:'', typeof multer.memoryStorage\\)\")",
+      "Bash(node -e \":*)"
+    ]
+  }
+}
